@@ -10,7 +10,7 @@ import requests
 router = APIRouter()  # Assuming you're adding this to main.py
 
 # Set your OpenRouter API key
-api_key = os.getenv("OPENROUTER_API_KEY", "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")
+api_key = os.getenv("OPENROUTER_API_KEY", "your API key")
 
 # OpenRouter API URL
 api_url = "https://openrouter.ai/api/v1/chat/completions"
